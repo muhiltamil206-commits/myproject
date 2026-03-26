@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'homepage' %}">Home</a></li>
+            <li><a href="{% url 'aboutpage' %}">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <div class="detail-card">
+
+        <img src="https://via.placeholder.com/800x400" alt="Image">
+
+        <div class="detail-content">
+
+            <h1>Card Title Goes Here</h1>
+
+            <p class="meta">By John Doe | September 19, 2025</p>
+
+            <p class="description">
+                You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations.
+                Run 'python manage.py migrate' to apply them.
+            </p>
+
+            <a href="{% url 'homepage' %}" class="back-button">← Back</a>
+
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+
+    <dl>
+        <dt>Manivannan</dt>
+        <dd>Tamil</dd>
+    </dl>
+
+</footer>
+
+</body>
+</html>

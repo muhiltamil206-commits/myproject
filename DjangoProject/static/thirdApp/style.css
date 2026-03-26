@@ -1,0 +1,107 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+/* Body */
+
+body{
+background:#f4f6fb;
+color:#333;
+}
+
+/* Header */
+
+header{
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+padding:20px;
+color:white;
+text-align:center;
+font-size:22px;
+font-weight:600;
+}
+
+/* Navbar */
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin:0 15px;
+font-size:16px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#000;
+background:white;
+padding:6px 12px;
+border-radius:5px;
+}
+
+/* Container */
+
+.container{
+width:90%;
+max-width:1000px;
+margin:40px auto;
+}
+
+/* Card Style */
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+margin-bottom:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Title */
+
+h2{
+margin-bottom:15px;
+color:#333;
+}
+
+/* Button */
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+text-decoration:none;
+border-radius:6px;
+transition:0.3s;
+}
+
+.btn:hover{
+opacity:0.85;
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:50px;
+font-size:14px;
+}

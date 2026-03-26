@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'homepage' %}">Home</a></li>
+            <li><a href="{% url 'aboutpage' %}">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <div class="card">
+
+        <img src="https://via.placeholder.com/300x180" alt="Card Image">
+
+        <div class="card-content">
+
+            <h3>Harris Jayaraj</h3>
+
+            <p>This is a description for the card. More details can go here.</p>
+
+            <a href="{% url 'aboutpage' %}">Read More</a>
+
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+
+    <dl>
+        <dt>Manivannan</dt>
+        <dd>Tamil</dd>
+    </dl>
+
+</footer>
+
+</body>
+</html>
